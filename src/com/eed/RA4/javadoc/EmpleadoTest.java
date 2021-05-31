@@ -30,9 +30,16 @@ class EmpleadoTest {
    * Empleado Carmen
    */
   private Empleado carmen;
+  /**
+   * Se ejecuta antes
+   * @throws Exception lanza la excepcion
+   */
   @BeforeAll
   static void setUpBeforeClass() throws Exception {}
-
+  /**
+   * Se ejecuta despues de todo
+   * @throws Exception lanza la excepcion
+   */
   @AfterAll
   static void tearDownAfterClass() throws Exception {}
   /**
