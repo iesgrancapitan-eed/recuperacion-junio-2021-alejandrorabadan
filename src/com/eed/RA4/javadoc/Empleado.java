@@ -61,7 +61,7 @@ public class Empleado implements Comparable <Empleado>{
     this.salario=salario;
   }
   /**
-   * 
+   * asigna la edad del empleado
    * @param edad edad del empleado
    * @throws EdadIncorrectaException Si al edad es menor que 1 o mayor que 100
    */
@@ -70,12 +70,13 @@ public class Empleado implements Comparable <Empleado>{
       throw new EdadIncorrectaException("La edad debe ser un valor entre 1 y 100");
     }
     /**
+     * 
      * asignamos la edad del empleado a this.edad
      */
     this.edad=edad;
   }
   /**
-   * 
+   * devuelve el nombre del empleado
    * @return nombre del empleado (String)
    */
   public String getNombre() {
@@ -83,7 +84,7 @@ public class Empleado implements Comparable <Empleado>{
   }
 
   /**
-   * 
+   * devuelve el apellido del empleado
    * @return apellido del empleado (String)
    */
   public String getApellido() {
@@ -91,7 +92,7 @@ public class Empleado implements Comparable <Empleado>{
   }
 
   /**
-   * 
+   * devuelve la edad del empleado
    * @return edad del empleado (int)
    */
   public int getEdad() {
@@ -99,7 +100,7 @@ public class Empleado implements Comparable <Empleado>{
   }
 
   /**
-   * 
+   * devuelve el salario del empleado
    * @return salario del empleado (double)
    */
   public double getSalario() {
@@ -107,7 +108,7 @@ public class Empleado implements Comparable <Empleado>{
   }
 
   /**
-   * 
+   * si un la edad del empleado es mayor o igual a 40 se añada el plus de sueldo y devuelve true
    * @param sueldoPlus sueldo para sumar (double)
    * @return un booleano
    */
@@ -122,7 +123,7 @@ public class Empleado implements Comparable <Empleado>{
   }
 
 /**
- * 
+ * compara el nombre y apellido de dos empleados
  * @param a nuevo empleado
  * @return un booleano
  */
@@ -135,6 +136,7 @@ public class Empleado implements Comparable <Empleado>{
     }
   }
 /**
+ * compara las edades para devolve 1,0 o -1 dependiendo si es mayor igual o menor
  * @param a Es un nuevo empleado
  * @return entero (1,0,-1)
  */
