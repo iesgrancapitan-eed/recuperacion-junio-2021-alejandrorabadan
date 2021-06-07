@@ -15,6 +15,7 @@ public class NumeroMayor {
     numeroMayor(3,5,4);
     numeroMayor(3,4,5);
     numeroMayor(5,4,3);
-  }
+    numeroMayor(2,1,3);  
+    }
 
 }
