@@ -47,10 +47,6 @@ class EmpleadoTest {
    * @throws Exception Si hay error al indicar objeto
    */
   @BeforeEach
-  /**
-   * asigna valores a los objetos empleados
-   * @throws Exception
-   */
   void setUp() throws Exception {
     /**
      * valores del objeto alejandro
