@@ -43,7 +43,7 @@ class EmpleadoTest {
   @AfterAll
   static void tearDownAfterClass() throws Exception {}
   /**
-   * 
+   * asigna valores a los objetos empleados
    * @throws Exception Si hay error al indicar objeto
    */
   @BeforeEach
