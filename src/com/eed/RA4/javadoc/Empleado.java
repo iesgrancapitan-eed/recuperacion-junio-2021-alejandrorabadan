@@ -18,27 +18,27 @@ public class Empleado implements Comparable <Empleado>{
    */
   public final static int MENOR=-1;
   /**
-   * atributo nombre tipo String
+   * nombre del empleado
    */
   private String nombre;
   /**
-   * atributo apellido tipo String
+   * apellido del empleado
    */
   private String apellido;
   /**
-   * atributo edad tipo int
+   * edad del empleado
    */
   private int edad;
   /**
-   * atributo salario tipo double
+   * salario del empleado
    */
   private double salario;
 
 /**
  * 
- * @param nombre del empleado (String)
- * @param apellido del empleado (String)
- * @param edad del empleado (int)
+ * @param nombre del empleado 
+ * @param apellido del empleado 
+ * @param edad del empleado 
  * @param salario del empleado (double)
  * @throws EdadIncorrectaException se lanza si la edad es menor que 1 o mayor que 100
  */
@@ -85,7 +85,7 @@ public class Empleado implements Comparable <Empleado>{
 
   /**
    * devuelve el apellido del empleado
-   * @return apellido del empleado (String)
+   * @return apellido del empleado 
    */
   public String getApellido() {
     return apellido;
@@ -93,7 +93,7 @@ public class Empleado implements Comparable <Empleado>{
 
   /**
    * devuelve la edad del empleado
-   * @return edad del empleado (int)
+   * @return edad del empleado 
    */
   public int getEdad() {
     return edad;
@@ -101,15 +101,15 @@ public class Empleado implements Comparable <Empleado>{
 
   /**
    * devuelve el salario del empleado
-   * @return salario del empleado (double)
+   * @return salario del empleado 
    */
   public double getSalario() {
     return salario;
   }
 
   /**
-   * si un la edad del empleado es mayor o igual a 40 se añada el plus de sueldo y devuelve true
-   * @param sueldoPlus sueldo para sumar (double)
+   * si la edad del empleado es mayor o igual de 40 se suma su salario con el parámetro sueldo plus y devuelve verdadero, si la edad del empleado es menor de 40 devuelve false y no se realiza la suma de su su sueldo actual y su sueldo plus.
+   * @param sueldoPlus sueldo para sumar 
    * @return un booleano
    */
   public boolean plus (double sueldoPlus){
@@ -152,7 +152,7 @@ public class Empleado implements Comparable <Empleado>{
 
   }
 /**
- * Mostrar los datos del empleado
+ * devuelve una cadena que representa el empleado
  */
   public String toString (){
     String mensaje="El empleado se llama "+nombre+" "+apellido+" con "+edad+" años " +
